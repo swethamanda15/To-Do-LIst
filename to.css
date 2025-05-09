@@ -1,0 +1,205 @@
+body{
+     background-image: url(https://img.freepik.com/premium-photo/colorful-shine-motion-effect-abstract-glowing-background-color-sparkle-multi-color-wallpaper-colored-texture-backdrop-banner_1170211-3775.jpg?w=826);
+     display: flex;
+     justify-content: center;
+     background-size: cover;
+}
+#container{
+     height: 400px;
+     width: 500px;
+     border: 2px solid black;
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     margin-top: 75px;
+     border-radius: 10px;
+}
+#container:hover {
+    box-shadow: 2px 3px 4px 2px rgba(232, 14, 50, 0.9);
+}
+#tag{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: auto;
+   margin-top: 10px;
+    height: 70px;
+    width: 225px;
+    border: 2px solid violet;
+    border-radius: 10px;
+    background-image: url(https://img.freepik.com/free-psd/abstract-background-design_1297-78.jpg?t=st=1746639381~exp=1746642981~hmac=6f1e07caacbcf46b40258beffc2f480735d2587a1a5a981a9068fa96cb37ade3&w=1380);
+    background-size: cover;
+}
+#head {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+#tag:hover {
+    box-shadow: 2px 2px 4px 5px rgba(217, 31, 177, 0.9);
+}
+#main {
+    color: blueviolet;
+    margin: auto;
+    margin-top: 20px;
+     height: 50px;
+     width: 400px;
+     border: 2px solid violet;
+     background-color: darkred;
+    
+}
+#main:hover {
+    box-shadow: 2px 2px 4px 6px rgba(15, 157, 224, 0.9);
+}
+#text {
+    height: 30px;
+    width: 300px;
+    margin: auto;
+    margin-left: 22px;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+#add {
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  li {
+    background-color:bisque;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  li:hover {
+    box-shadow:   2px 4px 6px 2px rgba(217, 31, 177, 0.9);
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  
+  .delete {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 150x;
+  }
+  
+  .delete:hover {
+    background-color: #c82333;
+  }
+
+  .complete {
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 100px;
+  }
+.complete:hover {
+    background-color: #2375c8;
+}
+.edit {
+    background-color: rgb(29, 13, 117);
+    border: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 200spx;
+}
+.edit:hover {
+    background-color: #c82354;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .todo-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  button.delete {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  button.delete:hover {
+    background-color: #c82333;
+  } */
+  
+  
